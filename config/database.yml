@@ -17,6 +17,9 @@ test:
   host: localhost
 
 production:
-  adapter: postgresql
+  adapter: mysql2
   database: prelaunchr
   host: localhost
+  password: arun
+  username: root
+  port: 3306
